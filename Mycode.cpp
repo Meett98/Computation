@@ -31,5 +31,11 @@ int main()
     cout<<"Div : "<<div<<"\n";
 
 
+
+    int mod = b%a;
+
+    cout<<"Modulo : "<<mod;
+
+
     
 }
