@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(176, 230, 176);
+  }
+  h1 {
+    color: rgb(218, 151, 83);
+  }
+  p {
+    color: red;
+    border: 2px solid powderblue;
+  padding: 30px;
+  }
+
+  button{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+  }
+
+
+label{
+    font-weight: 1000;
+  }
