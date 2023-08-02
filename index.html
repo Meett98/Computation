@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arithmetic Calculator</title>
+</head>
+
+<body>
+    <h1>Arithmetic Calculator</h1>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1">
+    <br>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2">
+    <br>
+    <button onclick="performOperation('add')">Add</button>
+    <button onclick="performOperation('subtract')">Subtract</button>
+    <button onclick="performOperation('multiply')">Multiply</button>
+    <button onclick="performOperation('divide')">Divide</button>
+    <br>
+    <label for="result">Result:</label>
+    <span id="result"></span>
+
+    <!-- Link the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
